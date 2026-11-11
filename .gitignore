@@ -1,0 +1,15 @@
+.venv/
+.models/
+__pycache__/
+.DS_Store
+
+# Keep local experiments and capture artifacts out of the release.
+*.db*
+*.sqlite*
+*.log
+*.mp4
+*.mov
+*.png
+*.jpeg
+*.jpg
+!examples/studio-cruiser.jpg
